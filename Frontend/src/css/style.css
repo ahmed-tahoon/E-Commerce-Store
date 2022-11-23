@@ -1,0 +1,136 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.width-20{
+    width: 20%;
+}
+
+/* body{
+    background-color: aliceblue;
+} */
+
+/* .tap_button{
+    background-color:#f8f9fa !important;
+    color: black !important;
+    border-radius: 0% !important;
+
+}
+
+.tap_button:hover {
+    background-color: white !important;
+} */
+
+.width-15{
+    width: 15%;
+}
+
+#div2{
+    display: none;
+}
+
+#div3{
+    display: none;
+}
+
+
+.form-check-input{
+
+    height: 25px !important;
+    width: 45px !important;
+}
+
+
+/* order */
+
+#editOrder{
+    display: none;
+}
+
+/* review */
+
+.rating{
+    color: #fdcc0d;
+}
+
+@media screen and (max-width:992px) {
+
+    .review{
+        width: 100px;
+    }
+
+    .user{
+        width: 50px;
+    }
+    
+}
+
+@media screen and (max-width:992px) {
+
+    .orderImg{
+        width: 100px;
+    }
+    
+}
+
+.but{
+    width: 10%;
+}
+
+
+#addBrand{
+    display: none;
+}
+
+
+#editBrand{
+    display: none;
+}
+
+
+
+
+.wish{
+    position: relative;
+}
+.exit{
+    position: absolute;
+    right: -7px;
+    top: -7px;
+}
+
+/* category */
+
+#editCategory{
+    display: none;
+}
+
+#addCategory{
+    display: none;
+}
+
+/* check */
+
+.check{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+@media screen and (max-width:992px) {
+
+    .map{
+        width: 60px;
+    }
+    
+}
+
+.product , .category , .brand{
+
+    cursor: pointer;
+}

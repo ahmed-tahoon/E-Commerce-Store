@@ -1,0 +1,277 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.lightBlue{
+    background-color:#ecf5f4 ;
+}
+
+.lightBlue2{
+    background-color: #9ebbbd;
+}
+
+
+
+.grey{
+    color: #52586d;
+}
+
+.grey2{
+    color: #66797a;
+    
+}
+
+.grey3{
+    color:#9ebbbd ;
+}
+
+.grey4{
+    color: #b3b5bc;
+}
+
+.darkgrey{
+    background-color: #4a5556;
+}
+
+.darkgreyText{
+    color: #4a5556;
+}
+
+.yellow{
+    color: rgb(255, 217, 0);
+}
+
+.big{
+    font-size: 4rem;
+}
+
+.width{
+    width: 45%;
+
+}
+.move{
+    transform: translateY(100px);
+}
+
+.circle{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 50px;
+    right: -30px;
+    background-color: white;
+}
+
+.z-index1{
+    z-index: 4000;
+}
+
+.z-index2{
+    z-index: 9000;
+}
+
+.carousel-control-prev{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color:#52586d ;
+
+
+
+}
+
+.carousel-control-next{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-color:#52586d ;
+}
+
+.exploreBtn{
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.exploreBtn::after{
+
+    content: "";
+    width: 0%;
+    height: 100%;
+    background-color: #52586d;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: inherit;
+    transition: 0.5s;
+
+}
+
+.exploreBtn:hover::after{
+    width: 100%;
+}
+
+.carousel-indicators button{
+    width: 15px !important;
+    height: 15px !important;
+    background-color: #52586d !important;
+    border-radius: 50%;
+    
+}
+
+.navbar-collapse{
+
+    flex-grow: 0;
+    width: 65%;
+}
+
+.Active{
+    color: #52586d !important;
+}
+
+i{
+    cursor: pointer;
+}
+
+@media screen and (max-width:1200px) and (min-width:992px){
+
+    .big {
+        font-size: 3rem;
+       
+    }
+    
+}
+
+@media screen and (max-width:992px) and (min-width:768px){
+
+    .big {
+        font-size: 2.5rem;
+       
+    }
+    
+}
+
+@media screen and (max-width:768px) and (min-width:576px){
+
+    .big {
+        font-size: 3rem;
+    }
+    
+}
+
+@media screen and (max-width:576px){
+
+    .big {
+        font-size: 3rem;
+    }
+    
+}
+
+
+/* section2 */
+
+.instructions{
+    flex-wrap: wrap;
+}
+
+/* category */
+
+.scale:hover{
+    transform: scale(1.2);
+}
+.scale{
+
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+/* brands */
+
+.greyscale{
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.greyscale:hover{
+
+    filter: grayscale(0%);
+
+}
+
+.brandsPrev{
+    position: absolute;
+    top: 30%;
+    left: 40px;
+}
+
+.brandsNext{
+    position: absolute;
+    top: 30%;
+    right: 40px;
+}
+
+/* review */
+
+.small{
+    font-size: 13px;
+}
+
+.circle2{
+    width: 350px;
+    height: 350px;
+    background-color: #d6e7e5;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -250px;
+}
+
+.circle3{
+    width: 800px;
+    height: 800px;
+    background-color: #d6e7e5;
+    border-radius: 50%;
+    position: absolute;
+    right: -500px;
+    top: -100;
+    
+}
+
+/* footer */
+
+.social{
+    width: 40px;
+    height: 40px;
+}
+
+.socialMedia:hover{
+    background-color:#9ebbbd ;
+    color: white;
+    cursor: pointer;
+}
+
+.socialMedia{
+    background-color:white;
+    color: #4a5556;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.white:hover{
+
+    cursor: pointer;
+    color: white;
+    margin-left: 5px;
+}
+
+
+
+.white{
+    transition: 0.3s;
+}
