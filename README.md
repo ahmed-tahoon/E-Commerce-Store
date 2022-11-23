@@ -4,8 +4,7 @@
 
 ## Description
 
-An ecommerce store.This ecommerce store enable three main
-different flows or implementations:
+An ecommerce store built with MERN stack, and utilizes third party API's. This ecommerce store enable three main different flows or implementations:
   
    - Buyers browse the store categories, products and brands
    - Sellers or Merchants manage their own brand component
