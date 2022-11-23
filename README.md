@@ -65,8 +65,8 @@ different flows or implementations:
 
 ## Admins dashboard
 ![screely-1669186352465](https://user-images.githubusercontent.com/77838959/203487433-961578d6-c50c-416b-bdde-7185ca73d889.png)
-![screely-1669186402030](https://user-images.githubusercontent.com/77838959/203487523-874385c8-dfd5-4fe7-9ec7-4ea0b0207d2e.png)
 ![screely-1669186413648](https://user-images.githubusercontent.com/77838959/203487532-26b14840-26a4-4023-bc52-e737e7d94a43.png)
+![screely-1669186402030](https://user-images.githubusercontent.com/77838959/203487523-874385c8-dfd5-4fe7-9ec7-4ea0b0207d2e.png)
 
 ## Sellers dashboard
 ![screely-1669186528339](https://user-images.githubusercontent.com/77838959/203487867-576c0c36-8226-4101-ae07-170b664ef59f.png)
